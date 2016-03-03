@@ -1,16 +1,16 @@
 
+/**
+ * @author Thibaut & Audran
+ */
 public class Main
 {
-
+	/**
+	 * Creation of the game, game ready to play
+	 * @param args
+	 */
 	public static void main(String[] args)
 	{
-		Game sokoban = new sokoban.play();
-		System.out.println("La partie a commencé.");
-		
-		
-		/*Caisse caisse1 = new Caisse();	// Box creation
-		Caisse caisse2 = new Caisse();	// Box creation
-		*/
+		new sokoban().play();
 	}
 
 }
