@@ -2,6 +2,7 @@
 /**
  * @author Thibaut & Audran
  */
+
 public class Main
 {
 	/**
@@ -10,7 +11,7 @@ public class Main
 	 */
 	public static void main(String[] args)
 	{
-		new sokoban().play();
+		new Sokoban().play();
 	}
 
 }
