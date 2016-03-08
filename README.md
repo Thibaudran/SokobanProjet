@@ -1,2 +1,3 @@
 # SokobanProjet
-Miniprojet Thib Audran
+Miniprojet, a Sokoban game 
+By Audran Gravier and Thibaut Martin

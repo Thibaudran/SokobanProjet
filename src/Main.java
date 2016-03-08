@@ -1,22 +1,23 @@
-// TODO update README.md (what/who)
+// TODO (done) update README.md (what/who)
 
 
-// TODO finish writing comment
+// TODO (done) finish writing comment
 /**
  * @author Thibaut & Audran
+ * Essential to create the whole game. Contents all parts of the game
  */
 
 public class Main
 {
 	
-	// TODO fix comment (ask for advice)
+	// TODO (done) fix comment (ask for advice)
 	/**
-	 * Creation of the game, game ready to play
+	 * Represents the game's initialization
 	 * @param args
 	 */
 	public static void main(String[] args)
 	{
-		new Sokoban().play();
+		new Game().play();
 	}
 
 }
