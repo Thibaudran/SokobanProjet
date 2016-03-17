@@ -1,19 +1,16 @@
-// TODO (done) update README.md (what/who)
 
-
-// TODO (done) finish writing comment
 /**
+ * Application that launches a Sokoban game
  * @author Thibaut & Audran
- * Essential to create the whole game. Contents all parts of the game
+ * 
  */
 
 public class Main
 {
 	
-	// TODO (done) fix comment (ask for advice)
 	/**
-	 * Represents the game's initialization
-	 * @param args
+	 * Application's main
+	 * @param args command-line arguments (unused)
 	 */
 	public static void main(String[] args)
 	{
