@@ -1,13 +1,15 @@
-// TODO write comment
+// TODO (done) write comment
 /**
+ * Class representing the creation of a box.
+ * 
  * @author Thibaut Audran
  *
  */
 public class Box
 {
-	// TODO fix comment
+	// TODO (done) fix comment
 	/**
-	 * The boxes of the Sokoban game
+	 * Represents the boxes of the Sokoban game. 
 	 */
 	public Box()
 	{
