@@ -1,4 +1,3 @@
-
 /**
  * Represents a Sokoban game. Link to the rules of the game :
  * https://en.wikipedia.org/wiki/Sokoban
@@ -7,8 +6,7 @@
  */
 
 public class SokobanGame
-{
-	 
+{ 
 	 /**
 	 * Value of the empty hut.
 	 */
@@ -18,17 +16,26 @@ public class SokobanGame
 	 */
 	public final static int WALLS = 8;
 	 /**
-	 * 
+	 * Value of the hut representing a box, which can be moved.
 	 */
 	public final static int BOX = 0;
 	 /**
-	 * 
+	 * Value of the hut representing the target area.
 	 */
 	public final static int AREA = 1;
 	 /**
-	 * 
+	 * Value of the hut representing the player, who move to move boxes.
 	 */
 	public final static int PLAYER = 3;
+	/**
+	 * Value of the hut representing a box on a target area.
+	 */
+	public final static int BOXINPLACE= 2;
+	
+	/**
+	 * 
+	 */
+	public int rack[][] = new int[8][8];
 	
 	/**
 	 * Represents the Sokoban game, ready to be played. Ready to be played : the
@@ -37,6 +44,17 @@ public class SokobanGame
 	 */
 	public SokobanGame()
 	{
+		int i, j;
+		for(i=0; i<8; i++)
+		{
+			for(j=0; j<8; j++)
+			{
+				this.rack[i][j] = VOID;
+			}
+		}
+		
+		
+		
 		/*
 		 * create table of 64 cases, 8x8. Define the field, placing boxes and
 		 * walls (=> to define the difficulty) and even targets area and
@@ -51,15 +69,15 @@ public class SokobanGame
 
 	}
 
-	// detail comment (main algorithm)
+/*  // detail comment (main algorithm)
 	/**
 	 * Method to play the game. It represents the progress of the game, from the
 	 * beginning to the end.
-	 */
+	 
 
 	public void play()
 	{
 
 	}
-
+*/
 }
