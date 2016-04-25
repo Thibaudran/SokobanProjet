@@ -1,5 +1,4 @@
 import java.awt.Component;
-
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -7,25 +6,24 @@ import javax.swing.JPanel;
 /**
  * Application that launches a Sokoban game
  * 
- * @author Thibaut & Audran
+ * @author Thibaut Audran
  * 
  */
 public class Main
 {
+
 	
-	 /**
-	 * Value of the empty hut.
-	 */
-	public final static int VOID = -1;
 	/**
 	 * Application's main
 	 * new SokobanGame().play();
 	 * @param args
-	 *            command-line arguments (unused)
+	 *        command-line arguments (unused)
 	 */
 	public static void main(String[] args)
 	{
-		int rack[][]= new int[8][8];
+		new SokobanGame().play();
+		/*
+		int[][] rack= new int[8][8];
 		int i, j;
 		for(i=0; i<8; i++)
 		{
@@ -35,15 +33,18 @@ public class Main
 				System.out.println(rack[i][j]);
 			}
 		}
-
+		
+	    JLabel text = new JLabel();
+	    text.setText("Sokoban");
+	    
 	    JFrame fenetre = new JFrame();
 	    fenetre.setTitle("Sokoban");
 	    fenetre.setSize(1000, 600);
-	    JLabel text = new JLabel();
-	    text.setText("Sokoban");
 	    fenetre.getContentPane().add(text);
 		fenetre.setLocationRelativeTo(null);
 	    fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    fenetre.setVisible(true);
+		 */	    
+	    
 	}
 }

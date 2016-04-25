@@ -1,6 +1,6 @@
 /**
  * Represent the character played
- * @author Thibaut
+ * @author Thibaut Audran
  *
  */
 public class Player

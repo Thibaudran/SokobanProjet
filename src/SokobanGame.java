@@ -2,40 +2,15 @@
  * Represents a Sokoban game. Link to the rules of the game :
  * https://en.wikipedia.org/wiki/Sokoban
  * 
- * @author Thibaut & Audran
+ * @author Thibaut Audran
  */
-
 public class SokobanGame
-{ 
-	 /**
-	 * Value of the empty hut.
-	 */
-	public final static int VOID = -1;
-	 /**
-	 * Value of the hut representing a wall, which is impossible to move.
-	 */
-	public final static int WALLS = 8;
-	 /**
-	 * Value of the hut representing a box, which can be moved.
-	 */
-	public final static int BOX = 0;
-	 /**
-	 * Value of the hut representing the target area.
-	 */
-	public final static int AREA = 1;
-	 /**
-	 * Value of the hut representing the player, who move to move boxes.
-	 */
-	public final static int PLAYER = 3;
-	/**
-	 * Value of the hut representing a box on a target area.
-	 */
-	public final static int BOXINPLACE= 2;
+{
 	
 	/**
-	 * 
+	 * The rack of the sokoban level.
 	 */
-	public int rack[][] = new int[8][8];
+	public int[][] rack;
 	
 	/**
 	 * Represents the Sokoban game, ready to be played. Ready to be played : the
@@ -45,9 +20,10 @@ public class SokobanGame
 	public SokobanGame()
 	{
 		int i, j;
-		for(i=0; i<8; i++)
+		int[][] this.rack[DIMENSION][DIMENSION];
+		for(i=0; i<DIMENSION; i++)
 		{
-			for(j=0; j<8; j++)
+			for(j=0; j<DIMENSION; j++)
 			{
 				this.rack[i][j] = VOID;
 			}
@@ -74,10 +50,15 @@ public class SokobanGame
 	 * Method to play the game. It represents the progress of the game, from the
 	 * beginning to the end.
 	 
-
+*/
+	/**
+	 * Plays the game
+	 * ...
+	 * 
+	 */
 	public void play()
 	{
 
 	}
-*/
+
 }
