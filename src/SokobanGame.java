@@ -7,10 +7,21 @@
 public class SokobanGame
 {
 	
+	
 	/**
 	 * The rack of the sokoban level.
 	 */
-	public int[][] rack;
+	private Rack rack;
+	
+	 /**
+	 * Value of the hut representing the player, who move to move boxes.
+	 */
+	public final static int PLAYER = 5;
+
+	/**
+	 * Value of the dimension of the rack.
+	 */
+	public final static int DIMENSION = 8;
 	
 	/**
 	 * Represents the Sokoban game, ready to be played. Ready to be played : the
@@ -19,15 +30,8 @@ public class SokobanGame
 	 */
 	public SokobanGame()
 	{
-		int i, j;
-		int[][] this.rack[DIMENSION][DIMENSION];
-		for(i=0; i<DIMENSION; i++)
-		{
-			for(j=0; j<DIMENSION; j++)
-			{
-				this.rack[i][j] = VOID;
-			}
-		}
+		
+		
 		
 		
 		
@@ -45,12 +49,12 @@ public class SokobanGame
 
 	}
 
-/*  // detail comment (main algorithm)
-	/**
-	 * Method to play the game. It represents the progress of the game, from the
-	 * beginning to the end.
-	 
-*/
+	/* 
+	detail comment (main algorithm)
+	Method to play the game. It represents the progress of the game, from the
+	beginning to the end.
+ 	*/
+	
 	/**
 	 * Plays the game
 	 * ...
@@ -58,7 +62,7 @@ public class SokobanGame
 	 */
 	public void play()
 	{
-
+		
 	}
 
 }

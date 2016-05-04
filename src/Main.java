@@ -22,18 +22,20 @@ public class Main
 	public static void main(String[] args)
 	{
 		new SokobanGame().play();
-		/*
-		int[][] rack= new int[8][8];
+		/*		
+ 		int[][] rack= new int[8][8];
 		int i, j;
 		for(i=0; i<8; i++)
 		{
 			for(j=0; j<8; j++)
 			{
-				rack[i][j] = VOID;
+				rack[i][j] = CaseType.VOID;
 				System.out.println(rack[i][j]);
 			}
 		}
 		
+		System.out.println(SokobanGame.rack[i][j]);
+
 	    JLabel text = new JLabel();
 	    text.setText("Sokoban");
 	    
@@ -44,7 +46,7 @@ public class Main
 		fenetre.setLocationRelativeTo(null);
 	    fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    fenetre.setVisible(true);
-		 */	    
-	    
+    
+	    */
 	}
 }
