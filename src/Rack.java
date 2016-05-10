@@ -1,6 +1,5 @@
 import java.util.Arrays;
 
-// TODO (done) write comment
 /**
  * A rack of one level of the Sokoban game.
  * 
@@ -21,13 +20,11 @@ public class Rack
 	private CaseType[][] rack;
 	
 	
-	// TODO (done) fix comment (this is not the rack)
 	/**
 	 * Generate a rack of 64 cases, 8x8. It will be the default rack.
 	 */
 	public Rack()
 	{
-		// TODO think about it: rack is a local variable that is unusable outside the constructor
 		int i, j;
 		this.rack = new CaseType[DIMENSION][DIMENSION];
 		for(i=0; i<DIMENSION; i++)

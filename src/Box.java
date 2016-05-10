@@ -1,4 +1,4 @@
-// TODO (done) write comment
+
 /**
  * Class representing the creation of a box.
  * 
@@ -7,7 +7,7 @@
  */
 public class Box
 {
-	// TODO (done) fix comment
+	// TODO fix comment
 	/**
 	 * Represents the boxes of the Sokoban game. 
 	 */

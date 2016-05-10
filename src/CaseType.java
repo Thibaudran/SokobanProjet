@@ -30,8 +30,10 @@ public enum CaseType
 		 */
 		BOXINPLACE(7);
 		
+		// TODO add javadoc comment
 		private int value;
-		
+
+		// TODO finish writing javadoc comment
 		/**
 		 * @param value
 		 */
